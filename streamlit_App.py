@@ -26,7 +26,7 @@ if app_mode=='Home':
 
     # Bar Plot for Outcome Counts
     st.subheader('Distribution of Heart Attack Outcomes')
-    fig, ax = plt.subplots()
+    fig, ax = subplots()
     sns.countplot(x='output', data=df, ax=ax)
     for patch in ax.patches:
         current_width = patch.get_width()
