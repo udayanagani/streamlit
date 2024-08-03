@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd 
-import sklearn
+import scikit-learn as sklearn
 import numpy as np
 import pickle
 import time
