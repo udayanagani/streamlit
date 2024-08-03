@@ -23,7 +23,7 @@ if app_mode=='Home':
         np.random.randn(10, 2),
         columns=['x', 'y'])
     st.line_chart(df)
-    
+import sklearn    
 elif app_mode == 'Prediction':
 
 
