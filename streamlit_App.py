@@ -27,7 +27,7 @@ if app_mode=='Home':
 elif app_mode == 'Prediction':
 
 
-    loaded_model = pickle.load(open('heart_model.sav', 'rb'))
+    loaded_model = pickle.load(open('heart_model (1).sav', 'rb'))
 
     def heart_prediction(input_data):
         input_data_as_numpy_array = np.asarray(input_data)
