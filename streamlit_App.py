@@ -19,7 +19,7 @@ if app_mode=='Home':
     st.subheader("Below diagrams visualize the factots of distribution in the dataset.\n\n")
     df= pd.read_csv("heart.csv")
     
-    df = pd.DataFrame(columns=['output'])
+    df = pd.DataFrame('age')
     st.line_chart(df)
     
 elif app_mode == 'Prediction':
